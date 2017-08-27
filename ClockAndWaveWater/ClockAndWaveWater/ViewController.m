@@ -30,10 +30,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    [self.view addSubview:self.waterView];
-//    
-//    [self.view addSubview:self.slider];
+    [self.view addSubview:self.waterView];
     
+    [self.view addSubview:self.slider];
     
     
     [self.view addSubview:self.clockView];
@@ -50,7 +49,7 @@
 -(UISlider *)slider
 {
     if (!_slider) {
-        _slider = [[UISlider alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-200)/2, SCREEN_HEIGHT-100, 200, 12)];
+        _slider = [[UISlider alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-200)/2, SCREEN_HEIGHT-80, 200, 10)];
         [_slider addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _slider;
@@ -59,7 +58,7 @@
 -(WaveWaterView *)waterView
 {
     if (!_waterView) {
-        _waterView = [[WaveWaterView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-200)/2, 100, 200, 200)];
+        _waterView = [[WaveWaterView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-200)/2, 350, 200, 200)];
     }
     return _waterView;
 }
@@ -67,7 +66,7 @@
 -(ClockView *)clockView
 {
     if (!_clockView) {
-        _clockView = [[ClockView alloc] initWithFrame:CGRectMake(0, 100, SCREEN_WIDTH, 300)];
+        _clockView = [[ClockView alloc] initWithFrame:CGRectMake(0, 20, SCREEN_WIDTH, 300)];
     }
     return _clockView;
 }
