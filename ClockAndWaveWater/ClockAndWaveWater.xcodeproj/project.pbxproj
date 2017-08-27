@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		210FD2A11F52B9EE004D9FA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 210FD2A01F52B9EE004D9FA7 /* main.m */; };
+		210FD2A41F52B9EE004D9FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 210FD2A31F52B9EE004D9FA7 /* AppDelegate.m */; };
+		210FD2A71F52B9EE004D9FA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210FD2A61F52B9EE004D9FA7 /* ViewController.m */; };
+		210FD2AA1F52B9EE004D9FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210FD2A81F52B9EE004D9FA7 /* Main.storyboard */; };
+		210FD2AC1F52B9EF004D9FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210FD2AB1F52B9EE004D9FA7 /* Assets.xcassets */; };
+		210FD2AF1F52B9EF004D9FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210FD2AD1F52B9EF004D9FA7 /* LaunchScreen.storyboard */; };
+		210FD2BA1F52B9EF004D9FA7 /* ClockAndWaveWaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210FD2B91F52B9EF004D9FA7 /* ClockAndWaveWaterTests.m */; };
+		210FD2C51F52B9EF004D9FA7 /* ClockAndWaveWaterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210FD2C41F52B9EF004D9FA7 /* ClockAndWaveWaterUITests.m */; };
+		210FD2D41F52BA45004D9FA7 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 210FD2D31F52BA45004D9FA7 /* ClockView.m */; };
+		210FD2D71F52BA50004D9FA7 /* WaveWaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 210FD2D61F52BA50004D9FA7 /* WaveWaterView.m */; };
+		210FD2DA1F52BA5F004D9FA7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 210FD2D91F52BA5F004D9FA7 /* UIView+Extension.m */; };
+		210FD2DC1F52BA6E004D9FA7 /* pointerV2.png in Resources */ = {isa = PBXBuildFile; fileRef = 210FD2DB1F52BA6E004D9FA7 /* pointerV2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		210FD2B61F52B9EF004D9FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210FD2941F52B9EE004D9FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210FD29B1F52B9EE004D9FA7;
+			remoteInfo = ClockAndWaveWater;
+		};
+		210FD2C11F52B9EF004D9FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210FD2941F52B9EE004D9FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210FD29B1F52B9EE004D9FA7;
+			remoteInfo = ClockAndWaveWater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		210FD29C1F52B9EE004D9FA7 /* ClockAndWaveWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockAndWaveWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		210FD2A01F52B9EE004D9FA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		210FD2A21F52B9EE004D9FA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		210FD2A31F52B9EE004D9FA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		210FD2A51F52B9EE004D9FA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		210FD2A61F52B9EE004D9FA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		210FD2A91F52B9EE004D9FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		210FD2AB1F52B9EE004D9FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		210FD2AE1F52B9EF004D9FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		210FD2B01F52B9EF004D9FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210FD2B51F52B9EF004D9FA7 /* ClockAndWaveWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockAndWaveWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		210FD2B91F52B9EF004D9FA7 /* ClockAndWaveWaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockAndWaveWaterTests.m; sourceTree = "<group>"; };
+		210FD2BB1F52B9EF004D9FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210FD2C01F52B9EF004D9FA7 /* ClockAndWaveWaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockAndWaveWaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		210FD2C41F52B9EF004D9FA7 /* ClockAndWaveWaterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockAndWaveWaterUITests.m; sourceTree = "<group>"; };
+		210FD2C61F52B9EF004D9FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210FD2D21F52BA45004D9FA7 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		210FD2D31F52BA45004D9FA7 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		210FD2D51F52BA50004D9FA7 /* WaveWaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveWaterView.h; sourceTree = "<group>"; };
+		210FD2D61F52BA50004D9FA7 /* WaveWaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveWaterView.m; sourceTree = "<group>"; };
+		210FD2D81F52BA5F004D9FA7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		210FD2D91F52BA5F004D9FA7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		210FD2DB1F52BA6E004D9FA7 /* pointerV2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointerV2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210FD2991F52B9EE004D9FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210FD2B21F52B9EF004D9FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210FD2BD1F52B9EF004D9FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		210FD2931F52B9EE004D9FA7 = {
+			isa = PBXGroup;
+			children = (
+				210FD29E1F52B9EE004D9FA7 /* ClockAndWaveWater */,
+				210FD2B81F52B9EF004D9FA7 /* ClockAndWaveWaterTests */,
+				210FD2C31F52B9EF004D9FA7 /* ClockAndWaveWaterUITests */,
+				210FD29D1F52B9EE004D9FA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		210FD29D1F52B9EE004D9FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210FD29C1F52B9EE004D9FA7 /* ClockAndWaveWater.app */,
+				210FD2B51F52B9EF004D9FA7 /* ClockAndWaveWaterTests.xctest */,
+				210FD2C01F52B9EF004D9FA7 /* ClockAndWaveWaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		210FD29E1F52B9EE004D9FA7 /* ClockAndWaveWater */ = {
+			isa = PBXGroup;
+			children = (
+				210FD2DB1F52BA6E004D9FA7 /* pointerV2.png */,
+				210FD2D81F52BA5F004D9FA7 /* UIView+Extension.h */,
+				210FD2D91F52BA5F004D9FA7 /* UIView+Extension.m */,
+				210FD2D51F52BA50004D9FA7 /* WaveWaterView.h */,
+				210FD2D61F52BA50004D9FA7 /* WaveWaterView.m */,
+				210FD2D21F52BA45004D9FA7 /* ClockView.h */,
+				210FD2D31F52BA45004D9FA7 /* ClockView.m */,
+				210FD2A21F52B9EE004D9FA7 /* AppDelegate.h */,
+				210FD2A31F52B9EE004D9FA7 /* AppDelegate.m */,
+				210FD2A51F52B9EE004D9FA7 /* ViewController.h */,
+				210FD2A61F52B9EE004D9FA7 /* ViewController.m */,
+				210FD2A81F52B9EE004D9FA7 /* Main.storyboard */,
+				210FD2AB1F52B9EE004D9FA7 /* Assets.xcassets */,
+				210FD2AD1F52B9EF004D9FA7 /* LaunchScreen.storyboard */,
+				210FD2B01F52B9EF004D9FA7 /* Info.plist */,
+				210FD29F1F52B9EE004D9FA7 /* Supporting Files */,
+			);
+			path = ClockAndWaveWater;
+			sourceTree = "<group>";
+		};
+		210FD29F1F52B9EE004D9FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				210FD2A01F52B9EE004D9FA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		210FD2B81F52B9EF004D9FA7 /* ClockAndWaveWaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				210FD2B91F52B9EF004D9FA7 /* ClockAndWaveWaterTests.m */,
+				210FD2BB1F52B9EF004D9FA7 /* Info.plist */,
+			);
+			path = ClockAndWaveWaterTests;
+			sourceTree = "<group>";
+		};
+		210FD2C31F52B9EF004D9FA7 /* ClockAndWaveWaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				210FD2C41F52B9EF004D9FA7 /* ClockAndWaveWaterUITests.m */,
+				210FD2C61F52B9EF004D9FA7 /* Info.plist */,
+			);
+			path = ClockAndWaveWaterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		210FD29B1F52B9EE004D9FA7 /* ClockAndWaveWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210FD2C91F52B9EF004D9FA7 /* Build configuration list for PBXNativeTarget "ClockAndWaveWater" */;
+			buildPhases = (
+				210FD2981F52B9EE004D9FA7 /* Sources */,
+				210FD2991F52B9EE004D9FA7 /* Frameworks */,
+				210FD29A1F52B9EE004D9FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockAndWaveWater;
+			productName = ClockAndWaveWater;
+			productReference = 210FD29C1F52B9EE004D9FA7 /* ClockAndWaveWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		210FD2B41F52B9EF004D9FA7 /* ClockAndWaveWaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210FD2CC1F52B9EF004D9FA7 /* Build configuration list for PBXNativeTarget "ClockAndWaveWaterTests" */;
+			buildPhases = (
+				210FD2B11F52B9EF004D9FA7 /* Sources */,
+				210FD2B21F52B9EF004D9FA7 /* Frameworks */,
+				210FD2B31F52B9EF004D9FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210FD2B71F52B9EF004D9FA7 /* PBXTargetDependency */,
+			);
+			name = ClockAndWaveWaterTests;
+			productName = ClockAndWaveWaterTests;
+			productReference = 210FD2B51F52B9EF004D9FA7 /* ClockAndWaveWaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		210FD2BF1F52B9EF004D9FA7 /* ClockAndWaveWaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210FD2CF1F52B9EF004D9FA7 /* Build configuration list for PBXNativeTarget "ClockAndWaveWaterUITests" */;
+			buildPhases = (
+				210FD2BC1F52B9EF004D9FA7 /* Sources */,
+				210FD2BD1F52B9EF004D9FA7 /* Frameworks */,
+				210FD2BE1F52B9EF004D9FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210FD2C21F52B9EF004D9FA7 /* PBXTargetDependency */,
+			);
+			name = ClockAndWaveWaterUITests;
+			productName = ClockAndWaveWaterUITests;
+			productReference = 210FD2C01F52B9EF004D9FA7 /* ClockAndWaveWaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		210FD2941F52B9EE004D9FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WXQ;
+				TargetAttributes = {
+					210FD29B1F52B9EE004D9FA7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BJS7AE8R7F;
+						ProvisioningStyle = Automatic;
+					};
+					210FD2B41F52B9EF004D9FA7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BJS7AE8R7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 210FD29B1F52B9EE004D9FA7;
+					};
+					210FD2BF1F52B9EF004D9FA7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BJS7AE8R7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 210FD29B1F52B9EE004D9FA7;
+					};
+				};
+			};
+			buildConfigurationList = 210FD2971F52B9EE004D9FA7 /* Build configuration list for PBXProject "ClockAndWaveWater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 210FD2931F52B9EE004D9FA7;
+			productRefGroup = 210FD29D1F52B9EE004D9FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				210FD29B1F52B9EE004D9FA7 /* ClockAndWaveWater */,
+				210FD2B41F52B9EF004D9FA7 /* ClockAndWaveWaterTests */,
+				210FD2BF1F52B9EF004D9FA7 /* ClockAndWaveWaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		210FD29A1F52B9EE004D9FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210FD2AF1F52B9EF004D9FA7 /* LaunchScreen.storyboard in Resources */,
+				210FD2DC1F52BA6E004D9FA7 /* pointerV2.png in Resources */,
+				210FD2AC1F52B9EF004D9FA7 /* Assets.xcassets in Resources */,
+				210FD2AA1F52B9EE004D9FA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210FD2B31F52B9EF004D9FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210FD2BE1F52B9EF004D9FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210FD2981F52B9EE004D9FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210FD2DA1F52BA5F004D9FA7 /* UIView+Extension.m in Sources */,
+				210FD2A71F52B9EE004D9FA7 /* ViewController.m in Sources */,
+				210FD2D41F52BA45004D9FA7 /* ClockView.m in Sources */,
+				210FD2A41F52B9EE004D9FA7 /* AppDelegate.m in Sources */,
+				210FD2A11F52B9EE004D9FA7 /* main.m in Sources */,
+				210FD2D71F52BA50004D9FA7 /* WaveWaterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210FD2B11F52B9EF004D9FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210FD2BA1F52B9EF004D9FA7 /* ClockAndWaveWaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210FD2BC1F52B9EF004D9FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210FD2C51F52B9EF004D9FA7 /* ClockAndWaveWaterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		210FD2B71F52B9EF004D9FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210FD29B1F52B9EE004D9FA7 /* ClockAndWaveWater */;
+			targetProxy = 210FD2B61F52B9EF004D9FA7 /* PBXContainerItemProxy */;
+		};
+		210FD2C21F52B9EF004D9FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210FD29B1F52B9EE004D9FA7 /* ClockAndWaveWater */;
+			targetProxy = 210FD2C11F52B9EF004D9FA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		210FD2A81F52B9EE004D9FA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210FD2A91F52B9EE004D9FA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		210FD2AD1F52B9EF004D9FA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210FD2AE1F52B9EF004D9FA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		210FD2C71F52B9EF004D9FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		210FD2C81F52B9EF004D9FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		210FD2CA1F52B9EF004D9FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJS7AE8R7F;
+				INFOPLIST_FILE = ClockAndWaveWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wq.ClockAndWaveWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		210FD2CB1F52B9EF004D9FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJS7AE8R7F;
+				INFOPLIST_FILE = ClockAndWaveWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wq.ClockAndWaveWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		210FD2CD1F52B9EF004D9FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BJS7AE8R7F;
+				INFOPLIST_FILE = ClockAndWaveWaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wq.ClockAndWaveWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockAndWaveWater.app/ClockAndWaveWater";
+			};
+			name = Debug;
+		};
+		210FD2CE1F52B9EF004D9FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BJS7AE8R7F;
+				INFOPLIST_FILE = ClockAndWaveWaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wq.ClockAndWaveWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockAndWaveWater.app/ClockAndWaveWater";
+			};
+			name = Release;
+		};
+		210FD2D01F52B9EF004D9FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BJS7AE8R7F;
+				INFOPLIST_FILE = ClockAndWaveWaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wq.ClockAndWaveWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClockAndWaveWater;
+			};
+			name = Debug;
+		};
+		210FD2D11F52B9EF004D9FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BJS7AE8R7F;
+				INFOPLIST_FILE = ClockAndWaveWaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wq.ClockAndWaveWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClockAndWaveWater;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210FD2971F52B9EE004D9FA7 /* Build configuration list for PBXProject "ClockAndWaveWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210FD2C71F52B9EF004D9FA7 /* Debug */,
+				210FD2C81F52B9EF004D9FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210FD2C91F52B9EF004D9FA7 /* Build configuration list for PBXNativeTarget "ClockAndWaveWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210FD2CA1F52B9EF004D9FA7 /* Debug */,
+				210FD2CB1F52B9EF004D9FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		210FD2CC1F52B9EF004D9FA7 /* Build configuration list for PBXNativeTarget "ClockAndWaveWaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210FD2CD1F52B9EF004D9FA7 /* Debug */,
+				210FD2CE1F52B9EF004D9FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		210FD2CF1F52B9EF004D9FA7 /* Build configuration list for PBXNativeTarget "ClockAndWaveWaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210FD2D01F52B9EF004D9FA7 /* Debug */,
+				210FD2D11F52B9EF004D9FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 210FD2941F52B9EE004D9FA7 /* Project object */;
+}
